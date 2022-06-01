@@ -1,0 +1,144 @@
+/* estilos gerais */
+
+body{
+    background-color:rgb(226, 224, 222);
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* nav bar */
+
+#navbar img{
+  height: 43px;
+  
+}
+
+#navbar a{
+    color: rgb(82, 62, 39);
+}
+
+#navbar button{
+    color: rgb(82, 62, 39);
+    border: 1px solid rgb(82, 62, 39);
+}
+
+#navbar button:hover{
+    background-color:rgb(122, 105, 83);
+}
+
+#navbar .bi-person-fill{
+    font-size: 19px;
+}
+
+#navbar .bi-cart-fill{
+    font-size: 19px;
+    
+}
+
+#navbar .qt_info{
+    background-color:rgb(177, 166, 156);
+    float: right;
+    top: -12px;
+    color:rgb(32, 66, 66);
+}
+
+/*********************/
+/* Seção 3 Cards */
+
+#card  h1, i, p{
+    color: rgb(75, 2, 2);
+}
+#card h5{
+   font-size: 23px;
+   color: rgb(75, 2, 2);
+}
+
+.card-body h6{
+    font-size: 18px;
+    color: rgb(82, 62, 39);
+}
+
+.card-body p{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+
+#card a{
+    color: #fff;
+    background-color: rgb(128, 97, 58);
+}
+
+#card a:hover{
+    color: #fff;
+    background-color: rgb(122, 105, 83);
+}
+
+/***********************/
+/* Seção 4 Sobre */
+
+#sobre  h1, i, p{
+    color: rgb(75, 2, 2);
+}
+#sobre h5{
+   font-size: 23px;
+   color: rgb(75, 2, 2);
+}
+
+#sobre li{
+    padding-right: 4px;
+}
+
+#sobre a{
+    color: #fff;
+    background-color: rgb(128, 97, 58);
+}
+
+#sobre a:hover{
+    color: #fff;
+    background-color: rgb(122, 105, 83);
+}
+
+/***********************/
+/* Seção 5 Contato */
+#contato i{
+    color: rgb(128, 97, 58);
+}
+
+button #icon-button{
+    color: #fff;
+}
+
+#contato button{
+    color: #fff;
+    background-color: rgb(128, 97, 58);
+}
+
+#contato button:hover{
+    color: #fff;
+    background-color: rgb(122, 105, 83);
+}
+
+
+/* Seção 6 Rodapé */
+
+#footer{
+   
+    padding: 15px;
+}
+
+#footer img{
+    width: 23px;
+}
+
+#footer h3,i{
+    color: rgb(128, 97, 58);
+}
+
+#footer a{
+    color:rgb(128, 97, 58);
+}
+
+#footer a:hover{
+    color:black;
+}
